@@ -65,6 +65,7 @@ class choria::broker (
   Array[String] $client_hosts,
   Choria::Adapters $adapters,
   String $identity,
+  Optional[String] $ssldir = undef,
   Optional[Integer] $tls_timeout = undef,
 ) {
   require choria
